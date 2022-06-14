@@ -28,22 +28,22 @@ De mismo modo contara con un sensor de Temperatura Y Humedad (DHT11), cuales sus
 Hoy en día no estamos seguros de las catástrofes que pudiéramos estar en ellas, tanto como guerras, terremotos, incendios, catástrofes ambientales. Es por ello por lo que siempre debemos de estar resguardados y sobre todo protegidos por nuestra seguridad y de nuestras personas mas cercanas. 
 Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentarnos a diferentes problemáticas que pudiesen existir, por ejemplo, estas son algunas de estas:
 - Con la cámara planemos poder grabar aquellas situaciones donde corra peligro, prácticamente ara la función de las cámaras de seguridad para grabar todos aquellos hechos que pueden pasar, y esta contara con su aplicación móvil donde vera todo lo captado por la cámara, también esta se guardaran en una memoria sd para un mejor almacenamiento de estos contenidos. 
-- El sensor de temperatura y humedad planea advertir al portador de elevaciones altas con un tiempo de anticipación antes de que esto suceda, para que este mismo se pueda percatar de este echo y corra a buscar un mejor sitio que se encuentre en mejores condones.
+- El sensor de temperatura y humedad planea advertir al portador de elevaciones altas con un tiempo de anticipación antes de que esto suceda, para que este mismo se pueda percatar de este echo y corra a buscar un mejor sitio que se encuentre en mejores condiciones.
 - El sensor de gas advertirá al portador de una posible fuga de gas, ya que estas llevan consigo una fuerte explosión o incendio, que pudiera poner en peligro a la persona. 
 - El detector de la frecuencia cardiaca advertirá al portador en una elevación de pulsaciones por minutos el cual ayudará a prevenir un posible paro cardiaco, y salvándole la vida. 
 - Al ser una mochila esta contara con paneles solares lo cual ayudara a la alimentación de todos los sensores y evitara que este se quede sin energía en caso de una emergencia ya que también podrá cargar los dispositivos móviles.
 
+### Epicas:
+- ![Documento de las Epicas](https://docs.google.com/document/d/1s1IhaFj25vKraQ8pb4i1asGf891Pa9r-qgiTH3K0rug/edit?usp=sharing)
 
+### Trello:
+![Trello](https://trello.com/b/vkpyq9oI)
 
 ### Materiales:
 ![alt text](img/placas.png)
 ![alt text](img/sensores.png)
 ![alt text](img/actuadores.png)
 ![alt text](img/extras.png)
-
-
-### Epicas:
-- 
 
 
 ### Diagrama de componente

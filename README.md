@@ -61,7 +61,7 @@ Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentar
 
 
 #### Funcionamiento
-Con este nuevo esprint, se realizó la incorporación de nuevas funciones, sensores, así como nuevos actuadores, entre ellos están: 
+Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensores, así como nuevos actuadores, entre ellos están: 
 - **Grabación de video y almacenado en una SD**, Se podrá grabar un video desde la ESP32-CAM. El usuario podrá almacenar el video del entorno en una sd, mediante la interfaz que proporciona la ESP32-CAM
 - **DHT11**, Sensor de temperatura y humedad. El sensor actuará obteniendo información en función de la humedad relativa del área. Se probará, aplicando dos situaciones: 1° Acercar la flama del encendedor, 2° leer los datos desde la consola.
 - **SSD1306**, Pantalla lcd oled de 128x64. En esta se mostrará la frecuencia cardiaca recabada por el usuario. Para probarlo deberíamos de ver las lecturas mostradas en la lcd. 
@@ -76,7 +76,7 @@ Con este nuevo esprint, se realizó la incorporación de nuevas funciones, senso
 
 
 ### Tablero en Trello:
-![Trello](https://trello.com/b/vkpyq9oI/smart-backpack)
+[Smart Backpack](https://trello.com/b/vkpyq9oI/smart-backpack)
 
 ### Materiales:
 ![alt text](img/placas.png)

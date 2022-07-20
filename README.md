@@ -34,10 +34,49 @@ Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentar
 - Al ser una mochila esta contara con paneles solares lo cual ayudara a la alimentación de todos los sensores y evitara que este se quede sin energía en caso de una emergencia ya que también podrá cargar los dispositivos móviles.
 
 ### Epicas:
-- ![Documento de las Epicas](https://docs.google.com/document/d/1s1IhaFj25vKraQ8pb4i1asGf891Pa9r-qgiTH3K0rug/edit?usp=sharing)
 
-### Trello:
-![Trello](https://trello.com/b/vkpyq9oI)
+#### Epicas - Sprint 2
+
+
+| id | Actividad   | Priorización                      |
+| :- | :---------- | :-------------------------------- |
+| 2.0| Grabación de video y almacenado en una SD | Deberia |
+| 2.1| Implementación del sensor de **DHT11**  | Deberia |
+|2.2| Implementación de la pantalla **SSD1306** | Deberia |
+| 2.3| Implementación del sensor de **HR0214-37**  | Deberia |
+| 2.4| Estructura de la base de datos  | Deberia |
+| 2.5| Diagrama de modelado circuito electrónico.  | Deberia |
+| 2.6| Curso para la impresión 3D |Deberia |
+| 2.7| Modelado de la banda en 3D |Deberia |
+| 2.8| Implementación del actuador **Buzzer**  | Deberia |
+
+
+#### Epica Extra - Sprint 2
+
+
+| id | Actividad   | Priorización                      |
+| :- | :---------- | :-------------------------------- |
+| 2.9| Implementación del sensor de **MQ5**  | Deberia |
+|2.10| Implementación del actuador **PWM** | Deberia |
+
+
+#### Funcionamiento
+Con este nuevo esprint, se realizó la incorporación de nuevas funciones, sensores, así como nuevos actuadores, entre ellos están: 
+- **Grabación de video y almacenado en una SD**, Se podrá grabar un video desde la ESP32-CAM. El usuario podrá almacenar el video del entorno en una sd, mediante la interfaz que proporciona la ESP32-CAM
+- **DHT11**, Sensor de temperatura y humedad. El sensor actuará obteniendo información en función de la humedad relativa del área. Se probará, aplicando dos situaciones: 1° Acercar la flama del encendedor, 2° leer los datos desde la consola.
+- **SSD1306**, Pantalla lcd oled de 128x64. En esta se mostrará la frecuencia cardiaca recabada por el usuario. Para probarlo deberíamos de ver las lecturas mostradas en la lcd. 
+- **HR0214-37**, Sensor de frecuencia cardiaca. El sensor será capaz de medir el pulso cardiaco del usuario. Para probarlo, se mostrarán los resultados obtenidos a través de la consola.
+- Estructura de la base de datos. Se creará el diagrama de la base de datos donde se guardarán los datos que se generen con el sensor de frecuencia cardiaca. [Estructura de la base de datos](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
+- Diagrama de modelado circuito electrónico. Se diseñará el diagrama del circuito de los componentes a utilizar, incluyendo los sensores y actuadores. [Diagrama de modelado circuito electrónico](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
+- Modelado de la banda en 3D. Una reunión con el equipo para aprobar el diseño. [Modelado de la banda en 3D](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
+- **Buzzer**, El Buzzer actuará mediante la respuesta del sensor de gas. El usuario será capaz de escuchar un sonido de alerta, cuando exista la presencia de un gas detectado previamente con el sensor.
+- **MQ5**, Sensor de Gas. El sensor funcionará a través de señales eléctricas cuando se detecte un gas. Se probará su funcionamiento mediante la manipulación con un gas natural, detectando su valor e imprimiendo el resultado mediante la consola.
+- **PWM**, Vibrador. Actuará mediante la respuesta del sensor de gas. El usuario será capaz de sentir una vibración de alerta, cuando exista la presencia de un gas detectado previamente con el sensor.
+
+
+
+### Tablero en Trello:
+![Trello](https://trello.com/b/vkpyq9oI/smart-backpack)
 
 ### Materiales:
 ![alt text](img/placas.png)
@@ -46,6 +85,11 @@ Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentar
 ![alt text](img/extras.png)
 
 
-### Diagrama de componente
+### Diagrama de circuitos
+![alt text](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
 
+### Diagrama de componente
 ![alt text](img/diagramaComponentes.png)
+
+### Dibujo del prototipo terminado
+![alt text](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)

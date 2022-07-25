@@ -86,7 +86,7 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 
 
 ### Diagrama de circuitos
-![alt text](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
+![alt text](img/diagramaCircuitos.png)
 
 ### Diagrama de componente
 ![alt text](img/diagramaComponentes.png)

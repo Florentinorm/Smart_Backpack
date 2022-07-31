@@ -42,13 +42,11 @@ Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentar
 | :- | :---------- | :-------------------------------- |
 | 2.0| Grabación de video y almacenado en una SD | Deberia |
 | 2.1| Implementación del sensor de **DHT11**  | Deberia |
-|2.2| Implementación de la pantalla **SSD1306** | Deberia |
+|2.2| Implementación de la pantalla **EW162B0YMY** | Deberia |
 | 2.3| Implementación del sensor de **HR0214-37**  | Deberia |
 | 2.4| Estructura de la base de datos  | Deberia |
 | 2.5| Diagrama de modelado circuito electrónico.  | Deberia |
-| 2.6| Curso para la impresión 3D |Deberia |
-| 2.7| Modelado de la banda en 3D |Deberia |
-| 2.8| Implementación del actuador **Buzzer**  | Deberia |
+| 2.6| Implementación del actuador **Buzzer**  | Deberia |
 
 
 #### Epica Extra - Sprint 2
@@ -56,22 +54,21 @@ Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentar
 
 | id | Actividad   | Priorización                      |
 | :- | :---------- | :-------------------------------- |
-| 2.9| Implementación del sensor de **MQ5**  | Deberia |
-|2.10| Implementación del actuador **PWM** | Deberia |
+| 2.7| Implementación del sensor de **MQ5**  | Deberia |
+|2.8| Implementación de una aplicación web, para mostrar los datos del sensor **DHT11** | Deberia |
+| 2.9| Implementación de un led, para mostrar las lecturas del sensor **HR0214-37** | Deberia |
 
 
 #### Funcionamiento
 Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensores, así como nuevos actuadores, entre ellos están: 
 - **Grabación de video y almacenado en una SD**, Se podrá grabar un video desde la ESP32-CAM. El usuario podrá almacenar el video del entorno en una sd, mediante la interfaz que proporciona la ESP32-CAM
-- **DHT11**, Sensor de temperatura y humedad. El sensor actuará obteniendo información en función de la humedad relativa del área. Se probará, aplicando dos situaciones: 1° Acercar la flama del encendedor, 2° leer los datos desde la consola.
-- **SSD1306**, Pantalla lcd oled de 128x64. En esta se mostrará la frecuencia cardiaca recabada por el usuario. Para probarlo deberíamos de ver las lecturas mostradas en la lcd. 
-- **HR0214-37**, Sensor de frecuencia cardiaca. El sensor será capaz de medir el pulso cardiaco del usuario. Para probarlo, se mostrarán los resultados obtenidos a través de la consola.
+- **DHT11**, Sensor de temperatura y humedad. El sensor actuará obteniendo información en función de la humedad relativa del área. Se probará, aplicando dos situaciones: 1° Acercar la flama del encendedor, 2° leer los datos desde la aplicación web.
+- **HR0214-37**, Sensor de frecuencia cardiaca. El sensor será capaz de medir el pulso cardiaco del usuario. Para probarlo, se mostrarán los resultados obtenidos a través de la consola, de mismo modo encendera un led con el ritmo de la frecuencia cardiaca.
+- **SSD1306**, Pantalla lcd de 16x2. En esta se mostrará la frecuencia cardiaca recabada por el usuario. Para probarlo deberíamos de ver las lecturas mostradas en la lcd, de misma manera un led encendera al ritmo de la frecuencia cardiaca. 
 - Estructura de la base de datos. Se creará el diagrama de la base de datos donde se guardarán los datos que se generen con el sensor de frecuencia cardiaca. [Estructura de la base de datos](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
 - Diagrama de modelado circuito electrónico. Se diseñará el diagrama del circuito de los componentes a utilizar, incluyendo los sensores y actuadores. [Diagrama de modelado circuito electrónico](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
-- Modelado de la banda en 3D. Una reunión con el equipo para aprobar el diseño. [Modelado de la banda en 3D](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
-- **Buzzer**, El Buzzer actuará mediante la respuesta del sensor de gas. El usuario será capaz de escuchar un sonido de alerta, cuando exista la presencia de un gas detectado previamente con el sensor.
+- **Buzzer**, El Buzzer actuará mediante la respuesta del sensor de gas. El usuario será capaz de escuchar un sonido de alerta, cuando exista la presencia de un gas detectado previamente con el sensor, ademas de hacer sonar el **Buzzer** cuando la lectura sea igual o mayor a 500.
 - **MQ5**, Sensor de Gas. El sensor funcionará a través de señales eléctricas cuando se detecte un gas. Se probará su funcionamiento mediante la manipulación con un gas natural, detectando su valor e imprimiendo el resultado mediante la consola.
-- **PWM**, Vibrador. Actuará mediante la respuesta del sensor de gas. El usuario será capaz de sentir una vibración de alerta, cuando exista la presencia de un gas detectado previamente con el sensor.
 
 
 
@@ -81,15 +78,16 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 ### Materiales:
 ![alt text](img/placas.png)
 ![alt text](img/sensores.png)
-![alt text](img/actuadores.png)
+![alt text](img/actuadores1.png)
 ![alt text](img/extras.png)
 
 
-### Diagrama de circuitos
-![alt text](img/diagramaCircuitos.png)
+### Esquemas
+![alt text](img/circuito1.png)
+![alt text](img/circuito2.png)
 
 ### Diagrama de componente
-![alt text](img/diagramaComponentes.png)
+![alt text](img/componentes.jpg)
 
 ### Dibujo del prototipo terminado
 ![alt text](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)

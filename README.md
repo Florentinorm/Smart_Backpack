@@ -65,8 +65,8 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 - **DHT11**, Sensor de temperatura y humedad. El sensor actuará obteniendo información en función de la humedad relativa del área. Se probará, aplicando dos situaciones: 1° Acercar la flama del encendedor, 2° leer los datos desde la aplicación web.
 - **HR0214-37**, Sensor de frecuencia cardiaca. El sensor será capaz de medir el pulso cardiaco del usuario. Para probarlo, se mostrarán los resultados obtenidos a través de la consola, de mismo modo encendera un led con el ritmo de la frecuencia cardiaca.
 - **SSD1306**, Pantalla lcd de 16x2. En esta se mostrará la frecuencia cardiaca recabada por el usuario. Para probarlo deberíamos de ver las lecturas mostradas en la lcd, de misma manera un led encendera al ritmo de la frecuencia cardiaca. 
-- Estructura de la base de datos. Se creará el diagrama de la base de datos donde se guardarán los datos que se generen con el sensor de frecuencia cardiaca. [Estructura de la base de datos](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
-- Diagrama de modelado circuito electrónico. Se diseñará el diagrama del circuito de los componentes a utilizar, incluyendo los sensores y actuadores. [Diagrama de modelado circuito electrónico](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
+- Estructura de la base de datos. Se creará el diagrama de la base de datos donde se guardarán los datos que se generen con el sensor de frecuencia cardiaca. [Estructura de la base de datos](img/estructurabd.jpeg)
+- Diagrama de modelado circuito electrónico. Se diseñará el diagrama del circuito de los componentes a utilizar, incluyendo los sensores y actuadores. [Diagrama de modelado circuito electrónico](img/circuito1.png)
 - **Buzzer**, El Buzzer actuará mediante la respuesta del sensor de gas. El usuario será capaz de escuchar un sonido de alerta, cuando exista la presencia de un gas detectado previamente con el sensor, ademas de hacer sonar el **Buzzer** cuando la lectura sea igual o mayor a 500.
 - **MQ5**, Sensor de Gas. El sensor funcionará a través de señales eléctricas cuando se detecte un gas. Se probará su funcionamiento mediante la manipulación con un gas natural, detectando su valor e imprimiendo el resultado mediante la consola.
 
@@ -90,4 +90,4 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 ![alt text](img/componentes.jpg)
 
 ### Dibujo del prototipo terminado
-![alt text](https://3puntozeromktblog.files.wordpress.com/2015/03/estamos-trabajando-contenidos-web2.jpg)
+![alt text](img/dibujo.jpeg)

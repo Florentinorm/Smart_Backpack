@@ -54,10 +54,14 @@ Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentar
 
 | id | Actividad   | Priorización                      |
 | :- | :---------- | :-------------------------------- |
-| 2.7| Implementación del sensor de **MQ5**  | Deberia |
-|2.8| Implementación de una aplicación web, para mostrar los datos del sensor **DHT11** | Deberia |
-| 2.9| Implementación de un led, para mostrar las lecturas del sensor **HR0214-37** | Deberia |
+|2.7| Implementación de una aplicación web, para mostrar los datos del sensor **DHT11** | Deberia |
+| 2.8| Implementación de un led, para mostrar las lecturas del sensor **HR0214-37** | Deberia |
 
+
+#### Parte del Sprint 3
+| id | Actividad   | Priorización                      |
+| :- | :---------- | :-------------------------------- |
+| 2.9| Implementación del sensor de **MQ5**  | Deberia |
 
 #### Funcionamiento
 Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensores, así como nuevos actuadores, entre ellos están: 

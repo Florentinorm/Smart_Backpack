@@ -5,8 +5,8 @@
 #include <DHT.h>
 
 // Replace with your network credentials
-const char* ssid = "Wifimax LOZANO_2.4";
-const char* password = "EEB3C3F3172389";
+const char* ssid = "SmartBackpack";
+const char* password = "123456789";
 
 #define DHTPIN 27     // Digital pin connected to the DHT sensor
 

@@ -5,8 +5,8 @@
 #include <DHT.h>
 
 // Replace with your network credentials
-const char* ssid = "SmartBackpack";
-const char* password = "123456789";
+const char* ssid = "Wifimax LOZANO_2.4";
+const char* password = "EEB3C3F3172389";
 
 #define DHTPIN 27     // Digital pin connected to the DHT sensor
 
@@ -83,19 +83,23 @@ const char index_html[] PROGMEM = R"rawliteral(
   </style>
 </head>
 <body>
-  <h2>Temperatura y Humedad</h2>
+  <h2>Proyecto Mochila Inteligente</h2>
   <p>
-    <i class="fas fa-thermometer-half" style="color:#059e8a;"></i> 
-    <span class="dht-labels">Temperature</span> 
+    <i class="fas fa-thermometer-half" style="color:#ff0000;"></i> 
+    <span class="dht-labels">Temperatura</span> 
     <span id="temperature">%TEMPERATURE%</span>
     <sup class="units">&deg;C</sup>
   </p>
   <p>
     <i class="fas fa-tint" style="color:#00add6;"></i> 
-    <span class="dht-labels">Humidity</span>
+    <span class="dht-labels">Humedad</span>
     <span id="humidity">%HUMIDITY%</span>
     <sup class="units">&percnt;</sup>
   </p>
+  <h4>Hernandez Salazar Diego Joan</h4>
+  <h4>Quintero Carillo Eva</h4>
+  <h4>Ramirez Balderas Florentino</h4>
+  <h4>Rodríguez Raul</h4>
 </body>
 <script>
 setInterval(function ( ) {
@@ -179,7 +183,7 @@ void loop(){
   sensorValue = analogRead(SENSOR);
   Serial.print("Value: "); Serial.println(sensorValue);
 
-  if (sensorValue > 500){
+  if (sensorValue > 800){
        digitalWrite (Buzzer, HIGH); //turn buzzer on
        delay(500);
         digitalWrite (Buzzer, LOW);  //turn buzzer off

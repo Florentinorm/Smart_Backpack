@@ -83,23 +83,22 @@ const char index_html[] PROGMEM = R"rawliteral(
   </style>
 </head>
 <body>
-  <h2>Proyecto Mochila Inteligente</h2>
+  <h2>Manga inteligente</h2>
   <p>
-    <i class="fas fa-thermometer-half" style="color:#ff0000;"></i> 
+   <i class="fas fa-thermometer-half" style="color:#ff0000;"></i> 
     <span class="dht-labels">Temperatura</span> 
     <span id="temperature">%TEMPERATURE%</span>
     <sup class="units">&deg;C</sup>
   </p>
   <p>
-    <i class="fas fa-tint" style="color:#00add6;"></i> 
+<i class="fas fa-tint" style="color:#00c9ff;"></i> 
     <span class="dht-labels">Humedad</span>
     <span id="humidity">%HUMIDITY%</span>
     <sup class="units">&percnt;</sup>
   </p>
-  <h4>Hernandez Salazar Diego Joan</h4>
-  <h4>Quintero Carillo Eva</h4>
-  <h4>Ramirez Balderas Florentino</h4>
-  <h4>Rodríguez Raul</h4>
+  <h4>Equipo:</h4>
+  <h4>Rosas Castillo Gabriela</h4>
+  <h4>Sandoval Rodriguez Lendy Joanna</h4>
 </body>
 <script>
 setInterval(function ( ) {
@@ -183,7 +182,7 @@ void loop(){
   sensorValue = analogRead(SENSOR);
   Serial.print("Value: "); Serial.println(sensorValue);
 
-  if (sensorValue > 800){
+  if (sensorValue > 600){
        digitalWrite (Buzzer, HIGH); //turn buzzer on
        delay(500);
         digitalWrite (Buzzer, LOW);  //turn buzzer off

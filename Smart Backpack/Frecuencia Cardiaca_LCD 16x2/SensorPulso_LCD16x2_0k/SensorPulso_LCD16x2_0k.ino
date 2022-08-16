@@ -20,11 +20,11 @@ volatile boolean QS = false;        // Verdadero cuando el Arduino Busca un puls
 bool estPulActual=0; // variable donde se guarda el estado logico actual del pulsador
 int value = 0;
 
-int minutos = 25;
-int segundos = 55;
-int horas = 26;
-int horass = 3;
-int dia = 14;
+int minutos = 0;
+int segundos = 0;
+int horas = 0;
+int horass = 6;
+int dia = 15;
 int mes = 8;
 int anio = 2022;
 #define OLED_RESET 4      // necesario por la libreria pero no usado

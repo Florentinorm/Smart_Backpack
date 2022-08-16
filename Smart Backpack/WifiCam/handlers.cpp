@@ -4,7 +4,7 @@
 
 static const char FRONTPAGE[] = R"EOT(
 <!doctype html>
-<title>Mochila Inteligente</title>
+<title>Manga Inteligente</title>
 <style>
 table,th,td { border: solid 1px #000000; border-collapse: collapse; }
 th,td { padding: 0.4rem; }
@@ -12,11 +12,11 @@ a { text-decoration: none; }
 footer { margin-top: 1rem; }
 </style>
 <body>
-<h1>Proyecto Mochila Inteligente</h1>
-<h2>Seleccione el formato y el tamano</h2>
+<h1>Proyecto Manga Inteligente</h1>
+<h2>Por favor selecciona un formato y tamaño</h2>
 <h4>JPG=Imagen, MJPEG=Video</h4>
-<h4>Recomendado <b>1024x768</b></h4>
-Para tomar una foto nueva es necesario actualizar la pagina
+<h4>Recomendacion: <b>1024x768</b></h4>
+Para tomar una foto nueva es necesario actualizar la página
 <table>
 <thead>
 <tr><th>BMP<th>JPG<th>MJPEG
@@ -24,11 +24,9 @@ Para tomar una foto nueva es necesario actualizar la pagina
 <tr><td colspan="3">loading
 </table>
 <footer>
-<h4>Realizado por: Equipo 3</h4>
-Hernandez Salazar Diego Joan<br>
-Quintero Carillo Eva<br>
-Ramirez Balderas Florentino<br>
-Rodriguez Raul
+<h4>Autoras:</h4>
+Rosas Castillo Gabriela<br>
+Sandoval Rodriguez Lendy Joanna<br>
 </footer>
 <script type="module">
 async function fetchText(uri, init) {

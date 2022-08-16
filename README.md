@@ -79,6 +79,9 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 ### Tablero en Trello:
 [Smart Backpack](https://trello.com/b/vkpyq9oI/smart-backpack)
 
+### Video:
+[Smart Backpack](https://drive.google.com/file/d/1Z7wYalPDfWyc-7PrssVCgC7pr-grnMqG/view?usp=sharing)
+
 ### Materiales:
 ![alt text](img/placas.png)
 ![alt text](img/sensores.png)

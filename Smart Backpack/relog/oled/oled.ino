@@ -20,7 +20,7 @@ int value = 0;
 
 int minutos = 25;
 int segundos = 55;
-int horas = 26;
+int horas = 24;
 int horass = 3;
 int dia = 14;
 int mes = 8;
@@ -149,7 +149,7 @@ Serial.println("Encendido");
         oled.setCursor(28, 34);   // ubica cursor en coordenadas 28,34
         oled.setTextSize(2);      // establece tamano de texto en 2
         oled.setTextColor(WHITE);   // establece color al unico disponible (pantalla monocromo)
-        oled.print("98.689");     // escribe texto
+        oled.print(BMP);     // escribe texto
         oled.display();     // muestra en pantalla todo lo establecido anteriormente
   }
 

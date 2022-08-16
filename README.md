@@ -1,4 +1,8 @@
 # Desarrollo para  dispositivos inteligentes
+# ING. Desarrollo y Gestión de software 
+![alt text](img/logo.png)
+
+
 
 ## Nombre del Proyecto: Smart Backpack
 
@@ -10,6 +14,9 @@
 - [Rodríguez Flores Raúl Alberto- 1219100366](https://github.com/raulrodriguezf)
 
 
+## Acargo del Docente y Ingeniero 
+- Anastasio Rodríguez García 
+
 ### Objetivo:
 
 Smart Backpack es una mochila inteligente que mas de alguna vez ayudara en tener una ventaja de mas del 60% de probabilidades de sobrevivir ante una catástrofe. 
@@ -20,7 +27,8 @@ De mismo modo contara con un sensor de Temperatura Y Humedad (DHT11), cuales sus
 - Todo este sistema será alimentado por una batería que a su vez esta será alimentada por un conjunto de 5 paneles solares para poder así asegurar su funcionamiento en todo momento.
 
 
-
+### Visión
+El sistema contribuye a detectar transmiciones de gas y altas temperaturas y lidiar con situaciones de la vida diaria como un nivel de frecuencia cardiaca alta.
 
 
 ### Problemática que resuelve:
@@ -91,6 +99,7 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 
 ### Video:
 [Smart Backpack](https://drive.google.com/file/d/1Z7wYalPDfWyc-7PrssVCgC7pr-grnMqG/view?usp=sharing)
+![alt text](img/video.jpeg)
 
 ### Materiales:
 ![alt text](img/placas.png)
@@ -118,7 +127,6 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 ![alt text](img//2.jpeg)
 
 - Mochila con panel solar
-![alt text](img//3.jpeg)
 ![alt text](img//4.jpeg)
 
 - Camara

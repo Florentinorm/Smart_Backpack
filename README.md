@@ -35,6 +35,13 @@ Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentar
 
 ### Epicas:
 
+#### Epicas - Sprint 1
+| id | Actividad   | Priorización                      |
+| :- | :---------- | :-------------------------------- |
+| 1.0| Se aplicara un panel solar | Deberia |
+| 1.1| Implementación de ESP32-CAM. | Deberia |
+
+
 #### Epicas - Sprint 2
 
 
@@ -61,7 +68,8 @@ Es por ello por lo que llega Smart Backpack la cual con ella planeamos enfrentar
 #### Parte del Sprint 3
 | id | Actividad   | Priorización                      |
 | :- | :---------- | :-------------------------------- |
-| 2.9| Implementación del sensor de **MQ5**  | Deberia |
+| 2.9| Correcciones en el diseño  | Deberia |
+| 2.9| Remplaso de la lcd 16x2 por la oled de 128x64  | Deberia |
 
 #### Funcionamiento
 Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensores, así como nuevos actuadores, entre ellos están: 
@@ -69,15 +77,17 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 - **DHT11**, Sensor de temperatura y humedad. El sensor actuará obteniendo información en función de la humedad relativa del área. Se probará, aplicando dos situaciones: 1° Acercar la flama del encendedor, 2° leer los datos desde la aplicación web.
 - **HR0214-37**, Sensor de frecuencia cardiaca. El sensor será capaz de medir el pulso cardiaco del usuario. Para probarlo, se mostrarán los resultados obtenidos a través de la consola, de mismo modo encendera un led con el ritmo de la frecuencia cardiaca.
 - **SSD1306**, Pantalla lcd de 16x2. En esta se mostrará la frecuencia cardiaca recabada por el usuario. Para probarlo deberíamos de ver las lecturas mostradas en la lcd, de misma manera un led encendera al ritmo de la frecuencia cardiaca. 
-- Estructura de la base de datos. Se creará el diagrama de la base de datos donde se guardarán los datos que se generen con el sensor de frecuencia cardiaca. [Estructura de la base de datos](img/bd.jpeg)
 - Diagrama de modelado circuito electrónico. Se diseñará el diagrama del circuito de los componentes a utilizar, incluyendo los sensores y actuadores. [Diagrama de modelado circuito electrónico](img/esquemas.jpg)
 - **Buzzer**, El Buzzer actuará mediante la respuesta del sensor de gas. El usuario será capaz de escuchar un sonido de alerta, cuando exista la presencia de un gas detectado previamente con el sensor, ademas de hacer sonar el **Buzzer** cuando la lectura sea igual o mayor a 500.
 - **MQ5**, Sensor de Gas. El sensor funcionará a través de señales eléctricas cuando se detecte un gas. Se probará su funcionamiento mediante la manipulación con un gas natural, detectando su valor e imprimiendo el resultado mediante la consola.
 
-
+### Sofware y lenguajes empleados
+<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 ### Tablero en Trello:
 [Smart Backpack](https://trello.com/b/vkpyq9oI/smart-backpack)
+![alt text](img//trello.png)
+
 
 ### Video:
 [Smart Backpack](https://drive.google.com/file/d/1Z7wYalPDfWyc-7PrssVCgC7pr-grnMqG/view?usp=sharing)
@@ -98,3 +108,18 @@ Con este nuevo sprint, se realizó la incorporación de nuevas funciones, sensor
 
 ### Dibujo del prototipo terminado
 ![alt text](img/dibujo.jpeg)
+
+### Resultados
+
+- Sensor de temperatura y Humedad, con el sensor de Gas
+![alt text](img//1.jpeg)
+
+- Brasalete con la pantalla oled 128x64 y el pulsador
+![alt text](img//2.jpeg)
+
+- Mochila con panel solar
+![alt text](img//3.jpeg)
+![alt text](img//4.jpeg)
+
+- Camara
+![alt text](img//6.jpeg)

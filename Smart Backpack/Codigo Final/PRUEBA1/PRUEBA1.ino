@@ -5,8 +5,8 @@
 #include <DHT.h>
 
 // Replace with your network credentials
-const char* ssid = "Wifimax LOZANO_2.4";
-const char* password = "EEB3C3F3172389";
+const char* ssid = "iPhone";
+const char* password = "castillo";
 
 #define DHTPIN 27     // Digital pin connected to the DHT sensor
 
@@ -83,7 +83,7 @@ const char index_html[] PROGMEM = R"rawliteral(
   </style>
 </head>
 <body>
-  <h2>Manga inteligente</h2>
+  <h2>Proyecto Mochila Inteligente</h2>
   <p>
    <i class="fas fa-thermometer-half" style="color:#ff0000;"></i> 
     <span class="dht-labels">Temperatura</span> 
@@ -97,8 +97,10 @@ const char index_html[] PROGMEM = R"rawliteral(
     <sup class="units">&percnt;</sup>
   </p>
   <h4>Equipo:</h4>
-  <h4>Rosas Castillo Gabriela</h4>
-  <h4>Sandoval Rodriguez Lendy Joanna</h4>
+    Quintero Carrillo Eva - 1217100824
+    Florentino Ramirez Balderas - 1219100383
+    Hernández Salazar Diego Joan - 1219100490
+    Rodríguez Flores Raúl Alberto- 1219100366
 </body>
 <script>
 setInterval(function ( ) {
